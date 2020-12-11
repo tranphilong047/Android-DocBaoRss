@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/DangNhap"
+        android:checkable="false"
+        android:title="Đăng Nhập"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/chedoxemngay"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Chế độ xem ban ngày"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/caNhan"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Cá Nhân"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/thongTinUngDung"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Thông Tin Ứng Dụng"
+        app:showAsAction="collapseActionView" />
+</menu>
